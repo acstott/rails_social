@@ -1,0 +1,24 @@
+This is a very simple example of how to add social login to a rails application using Omniauth. The site itself is a skeleton scaffold, and can be extended as you wish.  
+
+For the project, the version of ruby is 2.1.2. You can have multiple versions of ruby. If 2.1.2 isn't the version you are using, switch to it using rvm or similar.  
+
+
+The following dependencies are in the Gemfile, and are installed using bundler. You will want to check the Gemfile to make sure they are there, and also add any relevant gems
+to extend the project.  
+
+gem 'therubyracer'
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-digitalocean'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+
+To istall these dependencies type bundle install at the command line inside the parent directory of the application. 
+
+After the dependencies are install, create the database using the rake db:create command at the command line in the parent directory of the project. 
+
+Database migrations are preformed using the rake db:migrate command in the same manner as the rake db:create command. 
+
+To start the testing server, type rails s in the parent directory of the project. 
+
+
