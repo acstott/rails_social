@@ -30,7 +30,7 @@ gem 'omniauth-digitalocean'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-google'
-
+gem 'koala'
 
 
 # Use ActiveModel has_secure_password
